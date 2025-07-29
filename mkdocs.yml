@@ -1,0 +1,10 @@
+site_name: WMD's Docs
+site_url: https://wangmengda9.github.io
+theme: 
+  name: material
+  language: zh
+markdown_extensions:
+  - pymdownx.arithmatex
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML
