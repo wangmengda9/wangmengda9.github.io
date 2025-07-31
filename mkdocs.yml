@@ -1,8 +1,43 @@
 site_name: 王孟大的个人博客
 site_url: https://wangmengda9.github.io
-theme: 
+theme:
   name: material
+  font:
+    text: Inter
+    code: Roboto Mono
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  features:
+    - navigation.top
+    - navigation.tabs
+    - navigation.sections
+    - navigation.footer
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotate
+    - content.code.copy
+
   language: zh
+
+  palette:
+    #Light Mode
+    - scheme: default
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+      primary: green
+      accent: green
+
+    #Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+      primary: black
+      accent: deep purple
+      
 markdown_extensions:
   - pymdownx.arithmatex
 
